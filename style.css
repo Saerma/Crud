@@ -1,0 +1,123 @@
+form {
+    width: 350px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+  
+  button[type="button"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    border: 2px solid;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even),
+  table.list thead>tr {
+    background-color: #dddddd;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  #cancelAddButton {
+    background-color: #3333339b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  #addModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  
+  button {
+    background-color: #4CAF50;
+    /* Vert */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 3px;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  
+  .btn1 {
+    background-color: rgba(0, 0, 255, 0.544);
+  }
+  
+  .btn1:hover {
+    background-color: rgba(0, 0, 255, 0.772);
+  }
+  
+  .btn2 {
+    background-color: rgba(255, 0, 0, 0.674);
+  }
+  
+  .btn2:hover {
+    background-color: red;
+  }
+  
+  
+  
+  #scr {
+    overflow-x: auto;
+  }
+  
+  #btnn {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  
+  @media only screen and (max-width: 900px) {
+    #searchInput {
+     width: 25%;
+  }
+  }
+  

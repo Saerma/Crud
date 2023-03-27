@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD Example</title>
+  </head>
+  <body>
+    <button id="addButton">Ajouter</button>
+    <h1>Liste des personnes</h1>
+<div id="scr">
+    <table id="table">
+      <thead>
+        <tr>
+          <th>Prénom</th>
+          <th>Nom</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+      </tbody>
+    </table>
+    </div>
+    <br>
+    
+    <div id="addModal" style="display:none">
+      <h4>Ajouter unenouvelle personne</h4>
+    <form>
+      <label>Prénom :</label>
+      <input type="text" id="firstName">
+      <label>Nom :</label>
+      <input type="text" id="lastName">
+
+      <button type="button" onclick="addPerson()">Ajouter</button>
+      <button id="cancelAddButton">Annuler</button>
+    </form>
+  </div>
+
+
+  <script src="app.js"></script>
+  </body>
+
+</html>
